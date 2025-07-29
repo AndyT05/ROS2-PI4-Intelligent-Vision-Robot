@@ -22,6 +22,7 @@ setup(
         'console_scripts': [
                 'publisher_node = first_package.publisher:main',
                 'subscriber_node = first_package.subscriber:main',
+                'cmd_to_pwm_node = first_package.cmd_to_pwm:main',
                             ],
                 },
 )
